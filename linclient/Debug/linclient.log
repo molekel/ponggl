@@ -1,0 +1,23 @@
+﻿Build started 14/06/2013 14:13:35.
+     1>Project "c:\work\ponggl\linclient\linclient.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\linclient.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt linclient.cpp
+         linclient.cpp
+     1>c:\work\ponggl\linclient\linclient.cpp(21): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\io.h(318) : see declaration of 'write'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\work\ponggl\Debug\linclient.exe" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\linclient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\work\ponggl\Debug\linclient.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\work\ponggl\Debug\linclient.lib" /MACHINE:X86 Debug\linclient.obj
+         LINK : c:\work\ponggl\Debug\linclient.exe not found or not built by the last incremental link; performing full link
+         linclient.vcxproj -> c:\work\ponggl\Debug\linclient.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\work\ponggl\Debug\linclient.exe;#1" /manifest Debug\linclient.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\linclient.unsuccessfulbuild".
+         Touching "Debug\linclient.lastbuildstate".
+     1>Done Building Project "c:\work\ponggl\linclient\linclient.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.23

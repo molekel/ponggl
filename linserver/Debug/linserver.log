@@ -1,0 +1,19 @@
+﻿Build started 14/06/2013 14:24:38.
+     1>Project "c:\work\ponggl\linserver\linserver.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\linserver.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt linserver.cpp
+         linserver.cpp
+     1>c:\work\ponggl\linserver\linserver.cpp(20): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\io.h(313) : see declaration of 'read'
+     1>c:\work\ponggl\linserver\linserver.cpp(92): error C2275: 'FILE' : illegal use of this type as an expression
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(66) : see declaration of 'FILE'
+     1>c:\work\ponggl\linserver\linserver.cpp(92): error C2146: syntax error : missing ')' before identifier 'dort'
+     1>c:\work\ponggl\linserver\linserver.cpp(92): error C2660: 'read' : function does not take 1 arguments
+     1>c:\work\ponggl\linserver\linserver.cpp(92): error C2059: syntax error : ')'
+     1>Done Building Project "c:\work\ponggl\linserver\linserver.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.16

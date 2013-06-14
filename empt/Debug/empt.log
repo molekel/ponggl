@@ -1,0 +1,12 @@
+﻿Build started 12/06/2013 17:10:54.
+     1>Project "c:\work\ponggl\empt\empt.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\empt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       FinalizeBuildStatus:
+         Deleting file "Debug\empt.unsuccessfulbuild".
+         Touching "Debug\empt.lastbuildstate".
+     1>Done Building Project "c:\work\ponggl\empt\empt.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14
